@@ -1,0 +1,22 @@
+{
+  "name": "youtube_downloader_bot",
+  "version": "1.0.0",
+  "description": "to help download videos from youtube.com with video link",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bek",
+  "license": "ISC",
+  "dependencies": {
+    "grammy": "^1.18.1",
+    "telegraf": "^4.13.1",
+    "ytdl-core": "^4.10.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
